@@ -30,6 +30,7 @@ public class Main {
 //            case "SUNDAY":
 //                System.out.println("Weekend");
 //                break;
+
         }
 
 
