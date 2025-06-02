@@ -3,26 +3,20 @@ public class Main {
 
         int a = 10, b = 3;
 
-        int sum = a + b;
-
-        System.out.println(sum);
-
-        int difference = a - b;
-
-        System.out.println(difference);
-
-        int product = a * b;
-
-        System.out.println(product);
-
-        int quotient = a / b;
-
-        System.out.println(quotient);
-
-        int remainder = a % b;
-
-        System.out.println(remainder);
-
-
+        a += 5; // a = a + 5(계산기 등에 이용 가능할듯
+        System.out.println(a);
+        // a = 15, b = 3
+        b -= 2;
+        System.out.println(b);
+        // a = 15, b = 1
+        a *= b;
+        System.out.println(a);
+        // a = 15, b = 1
+        a /= 7;
+        System.out.println(a);
+        // a = 2, b = 1
+        a %= 8;
+        System.out.println(a);
+        // a = 2, b = 1
     }
 }
