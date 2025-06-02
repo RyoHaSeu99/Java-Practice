@@ -16,6 +16,7 @@ public class Main {
             default:
                 System.out.println("지금 내 기분은 이 단어들로는 표현할 수 없다.");
 
+
 //        String day = "SUNDAY" ;
 //
 //        switch (day) {
