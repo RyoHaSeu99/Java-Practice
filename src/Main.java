@@ -1,27 +1,25 @@
 public class Main {
     public static void main(String[] args) {
-        byte b = 10;
-        System.out.println(b);
+        int age = 20;
+        boolean hasID = true;
 
-        short s = 1000;
-        System.out.println(s);
+        if (age >= 18 && hasID) {
+            System.out.println("접속가능.");
+        }
 
-        int age = 25;
-        System.out.println(age);
+        boolean isWeekend = false;
+        boolean isHoliday = true;
 
-        long count = 10000000000L;
-        System.out.println(count);
+        if (isWeekend || isHoliday) {
+            System.out.println("쉴수있습니다.");
+        }
 
-        float pi = 3.14F;
-        System.out.println(pi);
+        boolean isRaining = true;
+        if(!isRaining) {
+            System.out.println("그냥 나가.");
+        } else {
+            System.out.println("우산 챙겨.");
+        }
 
-        double salary = 5000.5;
-        System.out.println(salary);
-
-        char grade = 'A';
-        System.out.println(grade);
-
-        boolean isValid = true;
-        System.out.println(isValid);
     }
 }
