@@ -1,47 +1,53 @@
 public class Main {
     public static void main(String[] args) {
 
-//        for (int i = 1; i <= 5; i++) {
+//        int i = 0;
+//        while (i < 5) {
 //            System.out.println(i);
+//            i++;
 //        }
 //
-//        for (int i = 10; i > 0; i--) {
-//            System.out.println(i);
+//        boolean a = false;
+//        while (a) {
+//            System.out.println("무한루프 1");
 //        }
-
-
-//        int number = 9;
-//        for (int i = 1; i <= 9 ; i++) {
-//            System.out.println(number + " x " + i + " = " + (number * i));
-//        }
-
-
-//        int number = 5;
 //
-//        for (int i = 1; i <= 19; i++) {
-//            if (i >= 5) {
-//                System.out.println(number + " x " + i + " = " + (number * i));
+//        do {
+//            System.out.println("무한 루프 2");
+//        } while (a);
+
+//        boolean a = true;
+//        int b = 1;
+//
+//        while (a) {
+//            System.out.println(b);
+//            b++;
+//
+//            if (b > 10000) {
+//                a = false;
 //            }
 //        }
 
-//        for (int i = 1; i <= 20; i++) {
-//            if (i % 3 == 0) {
-//                System.out.println("i 는 " + i);
-//            }
+        int input = 1;
 
-        for (int i = 1; i <= 9; i++) {
-            System.out.println("구구단 " + i + "단");
-            for (int j = 1; j <= 9; j++) {
-                System.out.println(i + " x " + j + " = " + (i * j));
+        do {
+            System.out.println("안녕하세요 자판기 입니다.");
+
+            // input = 0;
+            switch (input) {
+                case 1:
+                    System.out.println("콜라");
+                    break;
+                case 2:
+                    System.out.println("사이다");
+                    break;
+                case 3:
+                    System.out.println("물");
+                    break;
+                default:
+                    System.out.println("잘못 고름 ㅋ");
             }
-            System.out.println();
-        }
-
-//        for (int i = 1; i <= 9; i++) {
-//            for (int j = 1; j <= 9; j++) {
-//                System.out.println("i는 " + i + ", j는 " + j);
-//            }
-//
-//        }
+            input = 0;
+        } while (input != 0);
     }
 }
