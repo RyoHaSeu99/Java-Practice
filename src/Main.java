@@ -1,16 +1,17 @@
 import java.sql.SQLOutput;
 
 public class Main {
-    public static void printStudent(String name, int age) {
-        System.out.println("이름: " + name);
-        System.out.println("나이: " + age);
-        System.out.println("--------------");
+    public static int addNumber (int a, int b) {
+        int result = a + b;
+
+        return result;
     }
     public static void main(String[] args) {
-        System.out.println("=== 학생 정보 출력 ===");
-        Main.printStudent("Alice", 20);
-        printStudent("Bob", 22);
-        printStudent("Charlie", 25);
+        int number = addNumber(10, 7);
+        int number2 = addNumber(14, 1);
+        int number3 = addNumber(152, 3241);
+        System.out.println(number);
+        System.out.println(number2);
+        System.out.println(number3);
     }
-
 }
