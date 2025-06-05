@@ -1,13 +1,29 @@
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
+//        for (int i = 1; i <= 10; i++) {
+//            if (i == 7) {
+//                break;
+//            }
+//            System.out.println(i);
+//        }
+//        for (int i = 1; i <= 10; i++) {
+//            if (i %3 != 0) {
+//                continue;
+//            }
+//            System.out.println(i);
+//        }
 
-        int number = 991025;
+        for (int i = 1; i <= 20; i++) {
+            if (i >= 15) {
+                break;
+            } else if (i % 5 == 0) {
+                continue;
+            }
+            System.out.println(i);
+        }
 
-        String binaryString = Integer.toBinaryString(number);
-        String hexString = Integer.toHexString(number);
-        ;
-        System.out.println("Decimal: " + number);
-        System.out.println("Binary: " + binaryString);
-        System.out.println("Hex: " + hexString);
+
     }
 }
